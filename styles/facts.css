@@ -1,0 +1,32 @@
+.banner__wrapper {
+  padding-top: 40px;
+  font-family: "LibreBaskerville";
+}
+
+.facts__block {
+  margin-bottom: 40px;
+}
+
+.facts__title {
+  border-bottom: 1px solid #dbd5cf;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.facts {
+  margin-left: 40px;
+  font-family: KdamThmorPro;
+}
+
+.fact {
+  margin-bottom: 25px;
+}
+
+.fact::before {
+  content: "\2013";
+}
+
+.fact:last-child {
+  margin-bottom: 0;
+}
